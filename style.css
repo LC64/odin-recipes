@@ -1,0 +1,121 @@
+:root {
+  --primary-color: #c44b4b;
+  --secondary-color: #269e5c;
+  --light-color: #fff;
+  --dark-color: #333;
+  --link-color: rgba(13, 59, 128, 0.884);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+.header {
+  font-family: "Staatliches", cursive;
+  margin: 1rem 1rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1rem;
+  font-size: 3.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Staatliches", cursive;
+  margin: 1rem 1rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1,
+h3 {
+  font-size: 3.5rem;
+}
+
+h2,
+h4 {
+  font-size: 2rem;
+}
+
+h1,
+h4 {
+  color: var(--primary-color);
+}
+
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+h5 {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+  line-height: 2;
+  padding-left: 2rem;
+}
+
+ul {
+  list-style: none;
+  line-height: 2.5;
+  padding-left: 4rem;
+}
+
+p {
+  margin: 0.5rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-family: "Lato, sans-serif";
+  font-weight: bold;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-bottom: #333 2px dotted;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  border-bottom: var(--secondary-color) 2px solid;
+}
+
+/* Utility */
+.container {
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.main-links {
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.list {
+  padding-left: 2rem;
+}
+
+.list li {
+  padding: 2rem;
+  width: 90%;
+}
